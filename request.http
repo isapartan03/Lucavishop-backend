@@ -1,0 +1,86 @@
+### registrar un usuario
+
+POST http://localhost:3001/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "rolo2",
+    "email": "hola2@gmail.com",
+    "password": "rolo123456"
+}
+
+### Login user
+POST http://localhost:3001/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "hola@gmail.com",
+    "password": "rolo12345"
+}
+
+### Logout user
+POST http://localhost:3001/api/auth/logout
+
+### GET Lista de productos
+GET http://localhost:3001/api/products
+
+### POST crear pruducto
+POST http://localhost:3001/api/products
+Content-Type: application/json
+
+{
+    "name": "Taza de boku my hero",
+    "description": "Taza de primera edicion de boku my hero legendario donde aparece el logo de boku no hero luchando contra el mal",
+    "price": 20000,
+    "stock": 1600,
+    "imageUrl": "https://i0.wp.com/heaven-tees.com/wp-content/uploads/2024/05/mock-taza-heavens-tees-meli2a-scaled.jpg?fit=555%2C666&ssl=1"
+}
+
+### POST crear pruducto
+POST http://localhost:3001/api/products
+Content-Type: application/json
+
+{
+    "name": "Taza de one punch man",
+    "description": "Taza de primera edicion de one punnch man legendario donde aparece el logo de boku no hero luchando contra el mal",
+    "price": 5000,
+    "stock": 100,
+    "imageUrl": "https://m.media-amazon.com/images/I/51hAIliv75L._AC_UF894,1000_QL80_.jpg"
+}
+
+### Put Actualizar productos
+PUT http://localhost:3001/api/products/1
+Content-Type: application/json
+
+{
+    "stock": 51
+}
+
+### GET Obtener un producto por id
+GET http://localhost:3001/api/auth/profile
+
+### DELETE Eliminar un producto por su id
+DELETE http://localhost:3001/api/products/3
+
+### add producto al carrito 
+POST http://localhost:3001/api/cart/add
+Content-Type: application/json
+
+{
+    "userId": "2",
+    "productId": "1",
+    "quantity": 1
+}
+
+
+###peticion get
+http://localhost:3001/api/auth/avatar
+con
+
+
+
+
+
+
+
+
