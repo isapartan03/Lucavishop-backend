@@ -11,14 +11,13 @@ Backend del ecommerce desarrollado con Node.js, Express y MySQL. Incluye autenti
 ## Instalación
 
 1. Clonar el repositorio
-bash
 git clone https://github.com/TU_USUARIO/ecomerce-backend.git
 cd ecomerce-backend
 
-Instalar dependencias
+2. Instalar dependencias
 npm install
 
-Configurar variables de entorno
+3. Configurar variables de entorno
 cp .env.example .env
 
 Editar el archivo .env con tus credenciales:
@@ -32,13 +31,13 @@ EMAIL_PASS=tu_contraseña_de_aplicacion
 FRONTEND_URL=http://localhost:3000
 PORT=3001
 
-Crear la base de datos en MySQL
+5. Crear la base de datos en MySQL
 CREATE DATABASE ecommerce_db;
 
-Ejecutar el servidor en modo desarrollo
+6. Ejecutar el servidor en modo desarrollo
 npm run dev
 
-El servidor correrá en http://localhost:3001<
+El servidor correrá en http://localhost:3001
 
 Scripts disponibles
 npm run dev	Modo desarrollo con reinicio automático (nodemon)
