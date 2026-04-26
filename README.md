@@ -1,6 +1,10 @@
 # Lucavishop-backend - Tienda de ropa
 
-Backend del ecommerce desarrollado con Node.js, Express y MySQL. Incluye autenticación de usuarios, gestión de productos, carrito de compras, sistema de órdenes, foro de preguntas, favoritos, calificaciones y notificaciones. Este sistema está inspirado del siguiente vídeo: https://youtu.be/DMW3j99HB3s?si=LytLBhDK5WUEuacn, muchas gracias a RocoDev.
+API del ecommerce desarrollada con Node.js, Express y MySQL. Este backend proporciona toda la lógica de negocio y expone una API REST que incluye autenticación de usuarios, gestión de productos, carrito de compras, sistema de órdenes, foro de preguntas, favoritos, calificaciones y notificaciones en tiempo real.
+
+⚠️ Este repositorio contiene únicamente el código del backend.
+
+Proyecto inspirado en el vídeo de [RocoDev](https://youtu.be/DMW3j99HB3s?si=LytLBhDK5WUEuacn). Muchas gracias al creador por el aporte.
 
 ## Requisitos previos
 
